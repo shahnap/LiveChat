@@ -65,7 +65,7 @@ const App = () => {
           style={styles.input}
         />
         <button onClick={sendMessage} style={styles.sendButton}>
-          Send
+          Send check
         </button>
       </div>
     </div>
