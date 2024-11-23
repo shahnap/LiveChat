@@ -8,7 +8,7 @@ const App = () => {
 
   // Setup socket connection
   useEffect(() => {
-    const socketConnection = io("http://backendurl", {
+    const socketConnection = io("https://livechatbackend-9qgj.onrender.com", {
       transports: ["websocket"], // Force WebSocket transport
     });
 
